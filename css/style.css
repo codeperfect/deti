@@ -1,0 +1,37 @@
+@import url('reset.css');
+@import url('960_16_col.css');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,400italic,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,cyrillic');
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	color: #464646;
+	font: 1.3em/1.45em 'Open Sans', sans-serif;
+	margin: 30px 0;
+}
+
+a{
+	color: inherit;
+	transition: color .25s ease;	
+	-moz-transition: color .25s ease;
+ 	-webkit-transition: color .25s ease;
+}
+
+a:hover{
+	color: #4183d6;
+}
+
+
+/*basic classes*/
+.t-light{color: #797979;}
+.t-semibold{font-weight: 600;}
+.t-bold{font-weight: 700;}
+.t-black{font-weight: 800;}
+
+/**/
+.footer ul{margin-bottom: 30px;}
+.footer ul li{color: #797979;}
+.footer ul li:first-child{color: #464646; font-weight: 600; margin-bottom: 5px; font-size: 1em;}
+.footer ul li a{text-decoration: none;}
